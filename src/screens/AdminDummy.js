@@ -26307,6 +26307,255 @@ export default function AdminDummy() {
       specialist: [],
     },
   ];
+  const blog = [
+    {
+      blog: {
+        author: 'Dr. Devi Lal',
+        blocks: [
+          {
+            data: {
+              level: 2,
+              text: 'In-clinic visit v/s video/tele consultation',
+            },
+            id: 'tPd6cn8eQo',
+            type: 'header',
+          },
+          {
+            data: {
+              text: ' With the increasing assimilation of technology and smartphones into our lives, it was fairly certain that teleconsultation - consulting a doctor via audio call or video call would be on the rise. The fact that you can consult a doctor at the comfort of your home and with no delay certainly is a boon, especially with tele communication services getting better and more convenient everyday.',
+            },
+            id: '230x-0P3_0',
+            type: 'paragraph',
+          },
+          {
+            data: {
+              text: 'The question then arises - is this here to stay? The boom in tele consultation maybe because of the pandemic, but do we see a complete shift towards online patient care in the future? Wherein you consult a doctor ONLINE, send prescription to pharmacy ONLINE and get medicines delivered touchfree.WE DON’T THINK SO!',
+            },
+            id: 'e4s08Hvge6',
+            type: 'paragraph',
+          },
+          {
+            data: {
+              caption: 'A smiling doctor&nbsp;',
+              stretched: false,
+              url: 'https://st2.depositphotos.com/3889193/7657/i/600/depositphotos_76570869-stock-photo-confident-female-doctor-posing-in.jpg',
+              withBackground: true,
+              withBorder: false,
+            },
+            id: 'K-Tjmf9_Hn',
+            type: 'simpleImage',
+          },
+          {
+            data: {
+              text: 'Secondly, medicine is one profession/industry which requires care and empathy. Not just the right diagnosis and medicine, but proper care is what makes someone recover and back to health. There is a reason why we call it HealthCARE :) An empathetic doctor who understands the patient’s fears and apprehensions can help him recover much better than even a trained professional who cannot empathize with the patient. After all it is the Doctor whose skill and knowledge people trust and undergo the treatment right?',
+            },
+            id: 'lfHX190FiW',
+            type: 'paragraph',
+          },
+          {
+            data: {
+              text: 'And one thing which the internet and technology has successfully done, despite all it’s abilities to connect people across the world, is to reduce that empathy towards one another. A warm hug, a generous handshake or even a pat on the shoulder that says “Everything is going to be alright” goes a long way in healing someone. And that can only be provided via a physical visit to the medical practitioner',
+            },
+            id: 'Zr-M2MENt7',
+            type: 'paragraph',
+          },
+          {
+            data: {
+              text: 'Moreover, it is easier for the medical practitioner to examine and diagnose in-person. Even for a basic problem like Cough or Cold, a doctor knows that it is important to check all the vitals to be informed of any major problems that may arise in the future. And we don’t have all the equipment at our homes, do we? Even for a simple Blood Pressure Measurement for which various sorts of portable devices are available, not all of us can afford those and therefore we need to visit a clinic for the same.',
+            },
+            id: 'Uo42VS0-sy',
+            type: 'paragraph',
+          },
+          {
+            data: {
+              text: 'So in-clinic visit not only helps in providing better care, but better diagnosis as well - a win-win situation for the patients, right?',
+            },
+            id: 'Jt6BpBrr9C',
+            type: 'paragraph',
+          },
+          {
+            data: {
+              text: 'We decided to test this hypothesis. At one Cliniker’s partner clinics in Noida, we rolled out a survey to ACTUAL PATIENTS where in we asked them -',
+            },
+            id: 'VPIWRvF-QH',
+            type: 'paragraph',
+          },
+          {
+            data: {
+              text: 'What do you prefer? A visual consultation (phone or video) or real consultation?',
+            },
+            id: 'MIZcgyCvF7',
+            type: 'paragraph',
+          },
+          {
+            data: {items: [Array], style: 'ordered'},
+            id: 'YuiAqZmQoN',
+            type: 'list',
+          },
+          {
+            data: {text: 'To our surprise, this was the outcome -'},
+            id: 'XKYcXoeQd8',
+            type: 'paragraph',
+          },
+          {
+            data: {
+              caption: 'A smiling doctor&nbsp;',
+              stretched: false,
+              url: 'https://st2.depositphotos.com/3889193/7657/i/600/depositphotos_76570869-stock-photo-confident-female-doctor-posing-in.jpg',
+              withBackground: true,
+              withBorder: false,
+            },
+            id: 'zRWdR16exy',
+            type: 'simpleImage',
+          },
+          {
+            data: {
+              text: 'More than 90% of people preferred that they would rather choose an in-clinic visit to a doctor than a tele consultation. And mind you, this was in Feb 2021 - during Covid-19',
+            },
+            id: 'zx3uFl37Aw',
+            type: 'paragraph',
+          },
+          {
+            data: {
+              text: 'When people were asked why they felt in-clinic visit was more preferable them, these were some of the reasons which they stated -',
+            },
+            id: 'j4oXi8wuQr',
+            type: 'paragraph',
+          },
+          {
+            data: {items: [Array], style: 'ordered'},
+            id: 'n50DtX4Q1o',
+            type: 'list',
+          },
+          {
+            data: {
+              text: 'So then what is the way ahead, is it tele-consultation or in-clinic visits?',
+            },
+            id: 'EdOv1jWZAU',
+            type: 'paragraph',
+          },
+          {
+            data: {
+              text: 'We believe that it’ll be a combination of both. There will always be some people who like the convenience of consulting a doctor through their phones, and some people who prefer an in-person diagnosis.',
+            },
+            id: 'wV1ylVJjie',
+            type: 'paragraph',
+          },
+          {
+            data: {
+              text: 'We at Cliniker are doing our part by enhancing the experience of an in-clinic visit. Like we said, technology is an enabler, and we are using it to connect you with the best clinics NEAR YOU where you can go and get an in-clinic doctor consultation done. We also aim to connect you with best quality diagnostic and pathology facilities near you so that you can get your blood tests and regular health checkups done easily and of the utmost quality. We intend to use technology to help reduce wait times, provide correct information on facilities available near you, help you store your medical reports safely and many more things. We at Cliniker hope to assist medical practitioners practice medicine with the utmost ease and convenience and help them in providing the best quality medical CARE to everyone out there.',
+            },
+            id: 'ViDecyv-DM',
+            type: 'paragraph',
+          },
+          {
+            data: {text: 'Clinker - We care for you!'},
+            id: '3ZbSpK3Fqc',
+            type: 'paragraph',
+          },
+        ],
+        date: '2021-06-10',
+        time: 1626168670359,
+        version: '2.22.0',
+      },
+    },
+    {
+      blog: {
+        author: 'Dr. Moti Lal',
+        blocks: [
+          {
+            data: {level: 2, text: 'Editor.js'},
+            id: 'kFzwBSpIKd',
+            type: 'header',
+          },
+          {
+            data: {
+              text: 'Hey. Meet the new Editor. On this page you can see it in action — try to edit this text.',
+            },
+            id: 'Eb3HltLXD5',
+            type: 'paragraph',
+          },
+          {
+            data: {level: 3, text: 'Key features'},
+            id: '4KRmiEhzu2',
+            type: 'header',
+          },
+          {
+            data: {items: [Array], style: 'unordered'},
+            id: 'LVxG9G4wus',
+            type: 'list',
+          },
+          {
+            data: {level: 3, text: 'What does it mean «block-styled editor»'},
+            id: '5kXN7_Bnoc',
+            type: 'header',
+          },
+          {
+            data: {
+              text: "Workspace in classic editors is made of a single contenteditable element, used to create different HTML markups. Editor.js workspace consists of separate Blocks: paragraphs, headings, images, lists, quotes, etc. Each of them is an independent contenteditable element (or more complex structure) provided by Plugin and united by Editor's Core.",
+            },
+            id: 'PxjfXQR6RD',
+            type: 'paragraph',
+          },
+          {
+            data: {
+              text: 'There are dozens of ready-to-use Blocks and the simple API for creation any Block you need. For example, you can implement Blocks for Tweets, Instagram posts, surveys and polls, CTA-buttons and even games.',
+            },
+            id: 'oJhvQ7F6eO',
+            type: 'paragraph',
+          },
+          {
+            data: {level: 3, text: 'What does it mean clean data output'},
+            id: '29DEemxtME',
+            type: 'header',
+          },
+          {
+            data: {
+              text: 'Classic WYSIWYG-editors produce raw HTML-markup with both content data and content appearance. On the contrary, Editor.js outputs JSON object with data of each Block. You can see an example below',
+            },
+            id: 'NVkdmd5CoI',
+            type: 'paragraph',
+          },
+          {
+            data: {
+              text: 'Given data can be used as you want: render with HTML for Web clients, render natively for mobile apps, create markup for Facebook Instant Articles or Google AMP, generate an audio version and so on.',
+            },
+            id: '3fHwPd0ciJ',
+            type: 'paragraph',
+          },
+          {
+            data: {
+              text: 'Clean data is useful to sanitize, validate and process on the backend.',
+            },
+            id: 'rqp4NDJ5NC',
+            type: 'paragraph',
+          },
+          {data: {}, type: 'delimiter'},
+          {
+            data: {
+              text: "We have been working on this project more than three years. Several large media projects help us to test and debug the Editor, to make it's core more stable. At the same time we significantly improved the API. Now, it can be used to create any plugin for any task. Hope you enjoy. 😏",
+            },
+            id: 's13ukrkTip',
+            type: 'paragraph',
+          },
+          {
+            data: {
+              caption: '',
+              file: [Object],
+              stretched: false,
+              withBackground: false,
+              withBorder: true,
+            },
+            id: 'hvRXsLaQQc',
+            type: 'simpleImage',
+          },
+        ],
+        date: '2021-06-13',
+        time: 1622966796568,
+        version: '2.22.0',
+      },
+    },
+  ];
 
   const getlist = async () => {
     var list = [];
@@ -26350,7 +26599,7 @@ export default function AdminDummy() {
       // console.log('test added!', t++);
       firestore()
         .collection('clinics')
-        .doc('ttsem59roWOss4ziGQPm')
+        .doc('zbADcjL5caxAFejwm4yp')
         .collection('labtests')
         .add({
           ...e,
@@ -26359,7 +26608,7 @@ export default function AdminDummy() {
             e.cliniker_test_id.toString(),
             e.package_name,
             e.lab_name,
-            'MAXcare Mother and Child Clinic',
+            'MAXcare Multispecialty Gaur City-2',
             ...getKeywords(e.package_name),
           ],
         })
@@ -26375,7 +26624,7 @@ export default function AdminDummy() {
       //     e.cliniker_test_id.toString(),
       //     e.package_name,
       //     e.lab_name,
-      //     'MAXcare Multispeciality Clinic Sector 137',
+      //     'MAXcare Mother and Child Clinic',
       //     ...getKeywords(e.package_name),
       //   ],
       // });
@@ -26421,6 +26670,17 @@ export default function AdminDummy() {
     });
   };
 
+  const updateBlogs = da => {
+    blog.forEach(e => {
+      firestore()
+        .collection('blog')
+        .add(e)
+        .then(() => {
+          console.log('blog added!');
+        });
+    });
+  };
+
   const getKeywords = string => {
     const items = string.split(' ');
 
@@ -26441,7 +26701,7 @@ export default function AdminDummy() {
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
       <TouchableOpacity
         onPress={() => {
-          updateStaffs();
+          // updateBlogs();
         }}
         style={{
           height: 100,

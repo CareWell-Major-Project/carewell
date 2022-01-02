@@ -431,7 +431,7 @@ const Homescreen = props => {
                 style={{
                   fontWeight: 'bold',
                   fontSize: 16,
-                  opacity: 0.48,
+                  // opacity: 0.48,
                   color: colors.white,
                 }}>
                 {item.doctor != undefined
@@ -497,12 +497,12 @@ const Homescreen = props => {
           <View style={{alignItems: 'center', justifyContent: 'center'}}>
             <TouchableOpacity
               onPress={() => {
-                props.navigation.navigate('AdminDummy');
+                // props.navigation.navigate('AdminDummy');
               }}
               style={styles.icon}>
               <Image
-                style={{height: 20, width: 20}}
-                source={links.cliniker_white}
+                style={{height: 30, width: 30, borderRadius: 25}}
+                source={links.Carewell_back}
               />
             </TouchableOpacity>
 

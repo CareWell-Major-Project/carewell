@@ -310,8 +310,8 @@ export default function SearchScreen({navigation}) {
                     Note: documentSnapshot2.data().Note,
                     Process: documentSnapshot2.data().Process,
                     tests_included: documentSnapshot2.data().tests_included,
-                    sample_collection_facility: documentSnapshot2.data()
-                      .sample_collection_facility,
+                    sample_collection_facility:
+                      documentSnapshot2.data().sample_collection_facility,
                     clinic_name: documentSnapshot1.data().name,
                     fees: documentSnapshot2.data().fees,
                     clinic: {
@@ -375,8 +375,8 @@ export default function SearchScreen({navigation}) {
                       Note: documentSnapshot2.data().Note,
                       Process: documentSnapshot2.data().Process,
                       tests_included: documentSnapshot2.data().tests_included,
-                      sample_collection_facility: documentSnapshot2.data()
-                        .sample_collection_facility,
+                      sample_collection_facility:
+                        documentSnapshot2.data().sample_collection_facility,
                       clinic_name: documentSnapshot1.data().name,
                       fees: documentSnapshot2.data().fees,
                       clinic: {
@@ -942,7 +942,7 @@ export default function SearchScreen({navigation}) {
             <View style={styles.space_between}>
               <Text style={styles.heading}>Search by Specialisation</Text>
             </View>
-            <View style={styles.dname}>
+            <View style={[styles.dname, {width: '100%'}]}>
               <FlatList
                 data={diseases}
                 scrollEnabled={false}
@@ -958,7 +958,7 @@ export default function SearchScreen({navigation}) {
             <View style={styles.space_between}>
               <Text style={styles.heading}>Search by Specialisation</Text>
             </View>
-            <View style={styles.dname}>
+            <View style={[styles.dname, {width: '100%'}]}>
               <FlatList
                 data={specialisation}
                 scrollEnabled={false}

@@ -91,7 +91,7 @@ const Splash = props => {
 
         <View style={styles.main}>
           <Image
-            source={require('../assets/cliniker_white.png')}
+            source={require('../assets/Carewell_back.png')}
             style={styles.clinikerlogo}
           />
           <Text style={styles.subHead}>Services Offered</Text>
@@ -131,8 +131,8 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
   },
   clinikerlogo: {
-    height: 80,
-    width: 80,
+    height: 220,
+    width: 220,
   },
   main: {
     flex: 1,

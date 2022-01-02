@@ -4,6 +4,7 @@ export default {
   loc: require('../assets/loc.png'),
   cliniker_purple: require('../assets/cliniker_purple.png'),
   cliniker_white: require('../assets/cliniker_white.png'),
+  Carewell_back: require('../assets/Carewell_back.png'),
   doctor: require('../assets/doctorj.jpg'),
   clinic: require('../assets/clinic.jpg'),
   event: require('../assets/event.png'),
