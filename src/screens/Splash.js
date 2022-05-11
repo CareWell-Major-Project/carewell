@@ -131,8 +131,8 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
   },
   clinikerlogo: {
-    height: 220,
-    width: 220,
+    height: 120,
+    width: 120,
   },
   main: {
     flex: 1,

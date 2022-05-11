@@ -695,9 +695,10 @@ export default function Cart(props) {
 
   const addClinicoinsdiscount = () => {
     firestore()
-      .collection('cashbacks')
+      .collection('cashback')
       .doc('clinicoins')
       .onSnapshot(documentSnapshot => {
+        // console.log(documentSnapshot.data());
         setloyaltyTerms(documentSnapshot.data());
         settotalclinicoinsdic(
           userdetail.loyalty_points * documentSnapshot.data().multiple,

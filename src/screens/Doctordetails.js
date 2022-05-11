@@ -154,7 +154,7 @@ const Doctordetails = ({navigation, route}) => {
             style={[styles.packageList, {marginBottom: 10, marginLeft: 10}]}
             scroll
             data={details.clinics}
-            renderItem={({item}) => {
+            renderItem={({item, index}) => {
               found = renderclinic.array.find(element => element.id == item.id);
               console.log('clinic ', item.id, found);
               return (
@@ -189,12 +189,13 @@ const Doctordetails = ({navigation, route}) => {
                     </Text>
                   </View>
                   <TouchableOpacity
-                    onPress={() =>
+                    onPress={() => {
+                      console.log(index);
                       navigation.navigate('BookCalender', {
-                        clinic_details: found,
+                        clinic_details: index,
                         doctor_details: details,
-                      })
-                    }
+                      });
+                    }}
                     style={styles.book}>
                     <Text style={styles.appT}>BOOK APPOINTMENT</Text>
                   </TouchableOpacity>

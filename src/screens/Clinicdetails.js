@@ -353,7 +353,7 @@ export default function Clinicdetails({navigation, route}) {
                                       console.log(
                                         JSON.stringify(source, null, 2),
                                       );
-                                      console.log('id ', i, ' ', s.id);
+                                      console.log('id ', i, ' ', source);
                                       navigation.navigate(
                                         'Bookcliniccalender',
                                         {
@@ -397,7 +397,7 @@ export default function Clinicdetails({navigation, route}) {
               <View>
                 <View>
                   <TextInput
-                    placeholder="Search"
+                    // placeholder="Search"
                     value={searchquery}
                     editable
                     placeholder={'Search doctors, Labs and more'}
